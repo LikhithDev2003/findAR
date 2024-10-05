@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1449AEEC2CB19D5D00402C29 /* ARKIT__DEMOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AEEB2CB19D5D00402C29 /* ARKIT__DEMOApp.swift */; };
+		1449AEEE2CB19D5D00402C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AEED2CB19D5D00402C29 /* ContentView.swift */; };
+		1449AEF02CB19D5F00402C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1449AEEF2CB19D5F00402C29 /* Assets.xcassets */; };
+		1449AEF32CB19D5F00402C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1449AEF22CB19D5F00402C29 /* Preview Assets.xcassets */; };
+		1449AEFD2CB19D5F00402C29 /* ARKIT__DEMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AEFC2CB19D5F00402C29 /* ARKIT__DEMOTests.swift */; };
+		1449AF072CB19D5F00402C29 /* ARKIT__DEMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF062CB19D5F00402C29 /* ARKIT__DEMOUITests.swift */; };
+		1449AF092CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1449AEF92CB19D5F00402C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1449AEE02CB19D5D00402C29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1449AEE72CB19D5D00402C29;
+			remoteInfo = "ARKIT _DEMO";
+		};
+		1449AF032CB19D5F00402C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1449AEE02CB19D5D00402C29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1449AEE72CB19D5D00402C29;
+			remoteInfo = "ARKIT _DEMO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1449AEE82CB19D5D00402C29 /* ARKIT _DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKIT _DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449AEEB2CB19D5D00402C29 /* ARKIT__DEMOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOApp.swift; sourceTree = "<group>"; };
+		1449AEED2CB19D5D00402C29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1449AEEF2CB19D5F00402C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1449AEF22CB19D5F00402C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1449AEF82CB19D5F00402C29 /* ARKIT _DEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKIT _DEMOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449AEFC2CB19D5F00402C29 /* ARKIT__DEMOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOTests.swift; sourceTree = "<group>"; };
+		1449AF022CB19D5F00402C29 /* ARKIT _DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKIT _DEMOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449AF062CB19D5F00402C29 /* ARKIT__DEMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOUITests.swift; sourceTree = "<group>"; };
+		1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1449AEE52CB19D5D00402C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AEF52CB19D5F00402C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AEFF2CB19D5F00402C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1449AEDF2CB19D5D00402C29 = {
+			isa = PBXGroup;
+			children = (
+				1449AEEA2CB19D5D00402C29 /* ARKIT _DEMO */,
+				1449AEFB2CB19D5F00402C29 /* ARKIT _DEMOTests */,
+				1449AF052CB19D5F00402C29 /* ARKIT _DEMOUITests */,
+				1449AEE92CB19D5D00402C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1449AEE92CB19D5D00402C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1449AEE82CB19D5D00402C29 /* ARKIT _DEMO.app */,
+				1449AEF82CB19D5F00402C29 /* ARKIT _DEMOTests.xctest */,
+				1449AF022CB19D5F00402C29 /* ARKIT _DEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1449AEEA2CB19D5D00402C29 /* ARKIT _DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				1449AEEB2CB19D5D00402C29 /* ARKIT__DEMOApp.swift */,
+				1449AEED2CB19D5D00402C29 /* ContentView.swift */,
+				1449AEEF2CB19D5F00402C29 /* Assets.xcassets */,
+				1449AEF12CB19D5F00402C29 /* Preview Content */,
+			);
+			path = "ARKIT _DEMO";
+			sourceTree = "<group>";
+		};
+		1449AEF12CB19D5F00402C29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1449AEF22CB19D5F00402C29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1449AEFB2CB19D5F00402C29 /* ARKIT _DEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1449AEFC2CB19D5F00402C29 /* ARKIT__DEMOTests.swift */,
+			);
+			path = "ARKIT _DEMOTests";
+			sourceTree = "<group>";
+		};
+		1449AF052CB19D5F00402C29 /* ARKIT _DEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1449AF062CB19D5F00402C29 /* ARKIT__DEMOUITests.swift */,
+				1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */,
+			);
+			path = "ARKIT _DEMOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1449AEE72CB19D5D00402C29 /* ARKIT _DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449AF0C2CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMO" */;
+			buildPhases = (
+				1449AEE42CB19D5D00402C29 /* Sources */,
+				1449AEE52CB19D5D00402C29 /* Frameworks */,
+				1449AEE62CB19D5D00402C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKIT _DEMO";
+			productName = "ARKIT _DEMO";
+			productReference = 1449AEE82CB19D5D00402C29 /* ARKIT _DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1449AEF72CB19D5F00402C29 /* ARKIT _DEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449AF0F2CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMOTests" */;
+			buildPhases = (
+				1449AEF42CB19D5F00402C29 /* Sources */,
+				1449AEF52CB19D5F00402C29 /* Frameworks */,
+				1449AEF62CB19D5F00402C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1449AEFA2CB19D5F00402C29 /* PBXTargetDependency */,
+			);
+			name = "ARKIT _DEMOTests";
+			productName = "ARKIT _DEMOTests";
+			productReference = 1449AEF82CB19D5F00402C29 /* ARKIT _DEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1449AF012CB19D5F00402C29 /* ARKIT _DEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1449AF122CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMOUITests" */;
+			buildPhases = (
+				1449AEFE2CB19D5F00402C29 /* Sources */,
+				1449AEFF2CB19D5F00402C29 /* Frameworks */,
+				1449AF002CB19D5F00402C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1449AF042CB19D5F00402C29 /* PBXTargetDependency */,
+			);
+			name = "ARKIT _DEMOUITests";
+			productName = "ARKIT _DEMOUITests";
+			productReference = 1449AF022CB19D5F00402C29 /* ARKIT _DEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1449AEE02CB19D5D00402C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1449AEE72CB19D5D00402C29 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1449AEF72CB19D5F00402C29 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1449AEE72CB19D5D00402C29;
+					};
+					1449AF012CB19D5F00402C29 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1449AEE72CB19D5D00402C29;
+					};
+				};
+			};
+			buildConfigurationList = 1449AEE32CB19D5D00402C29 /* Build configuration list for PBXProject "ARKIT _DEMO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1449AEDF2CB19D5D00402C29;
+			productRefGroup = 1449AEE92CB19D5D00402C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1449AEE72CB19D5D00402C29 /* ARKIT _DEMO */,
+				1449AEF72CB19D5F00402C29 /* ARKIT _DEMOTests */,
+				1449AF012CB19D5F00402C29 /* ARKIT _DEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1449AEE62CB19D5D00402C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449AEF32CB19D5F00402C29 /* Preview Assets.xcassets in Resources */,
+				1449AEF02CB19D5F00402C29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AEF62CB19D5F00402C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AF002CB19D5F00402C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1449AEE42CB19D5D00402C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449AEEE2CB19D5D00402C29 /* ContentView.swift in Sources */,
+				1449AEEC2CB19D5D00402C29 /* ARKIT__DEMOApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AEF42CB19D5F00402C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449AEFD2CB19D5F00402C29 /* ARKIT__DEMOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1449AEFE2CB19D5F00402C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1449AF072CB19D5F00402C29 /* ARKIT__DEMOUITests.swift in Sources */,
+				1449AF092CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1449AEFA2CB19D5F00402C29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1449AEE72CB19D5D00402C29 /* ARKIT _DEMO */;
+			targetProxy = 1449AEF92CB19D5F00402C29 /* PBXContainerItemProxy */;
+		};
+		1449AF042CB19D5F00402C29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1449AEE72CB19D5D00402C29 /* ARKIT _DEMO */;
+			targetProxy = 1449AF032CB19D5F00402C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1449AF0A2CB19D5F00402C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1449AF0B2CB19D5F00402C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1449AF0D2CB19D5F00402C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARKIT _DEMO/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1449AF0E2CB19D5F00402C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARKIT _DEMO/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1449AF102CB19D5F00402C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKIT _DEMO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARKIT _DEMO";
+			};
+			name = Debug;
+		};
+		1449AF112CB19D5F00402C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKIT _DEMO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARKIT _DEMO";
+			};
+			name = Release;
+		};
+		1449AF132CB19D5F00402C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKIT _DEMO";
+			};
+			name = Debug;
+		};
+		1449AF142CB19D5F00402C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UUZHRGMDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ReNote.ReNote.ARKIT--DEMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKIT _DEMO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1449AEE32CB19D5D00402C29 /* Build configuration list for PBXProject "ARKIT _DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449AF0A2CB19D5F00402C29 /* Debug */,
+				1449AF0B2CB19D5F00402C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1449AF0C2CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449AF0D2CB19D5F00402C29 /* Debug */,
+				1449AF0E2CB19D5F00402C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1449AF0F2CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449AF102CB19D5F00402C29 /* Debug */,
+				1449AF112CB19D5F00402C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1449AF122CB19D5F00402C29 /* Build configuration list for PBXNativeTarget "ARKIT _DEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1449AF132CB19D5F00402C29 /* Debug */,
+				1449AF142CB19D5F00402C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1449AEE02CB19D5D00402C29 /* Project object */;
+}
