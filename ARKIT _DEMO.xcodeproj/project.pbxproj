@@ -14,6 +14,9 @@
 		1449AEFD2CB19D5F00402C29 /* ARKIT__DEMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AEFC2CB19D5F00402C29 /* ARKIT__DEMOTests.swift */; };
 		1449AF072CB19D5F00402C29 /* ARKIT__DEMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF062CB19D5F00402C29 /* ARKIT__DEMOUITests.swift */; };
 		1449AF092CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */; };
+		1449AF192CB19E0300402C29 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF182CB19E0300402C29 /* ARModel.swift */; };
+		1449AF1B2CB19E2000402C29 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF1A2CB19E2000402C29 /* ARViewModel.swift */; };
+		1449AF1D2CB19E4600402C29 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449AF1C2CB19E4600402C29 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		1449AF022CB19D5F00402C29 /* ARKIT _DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKIT _DEMOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1449AF062CB19D5F00402C29 /* ARKIT__DEMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOUITests.swift; sourceTree = "<group>"; };
 		1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT__DEMOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1449AF182CB19E0300402C29 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		1449AF1A2CB19E2000402C29 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		1449AF1C2CB19E4600402C29 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				1449AEEB2CB19D5D00402C29 /* ARKIT__DEMOApp.swift */,
-				1449AEED2CB19D5D00402C29 /* ContentView.swift */,
+				1449AF172CB19DA900402C29 /* View */,
+				1449AF162CB19D9800402C29 /* ViewModel */,
+				1449AF152CB19D8700402C29 /* Model */,
 				1449AEEF2CB19D5F00402C29 /* Assets.xcassets */,
 				1449AEF12CB19D5F00402C29 /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				1449AF082CB19D5F00402C29 /* ARKIT__DEMOUITestsLaunchTests.swift */,
 			);
 			path = "ARKIT _DEMOUITests";
+			sourceTree = "<group>";
+		};
+		1449AF152CB19D8700402C29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1449AF182CB19E0300402C29 /* ARModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1449AF162CB19D9800402C29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1449AF1A2CB19E2000402C29 /* ARViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1449AF172CB19DA900402C29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1449AEED2CB19D5D00402C29 /* ContentView.swift */,
+				1449AF1C2CB19E4600402C29 /* ARViewContainer.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1449AF192CB19E0300402C29 /* ARModel.swift in Sources */,
 				1449AEEE2CB19D5D00402C29 /* ContentView.swift in Sources */,
 				1449AEEC2CB19D5D00402C29 /* ARKIT__DEMOApp.swift in Sources */,
+				1449AF1B2CB19E2000402C29 /* ARViewModel.swift in Sources */,
+				1449AF1D2CB19E4600402C29 /* ARViewContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +461,7 @@
 				DEVELOPMENT_TEAM = 5UUZHRGMDL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "need it ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +491,7 @@
 				DEVELOPMENT_TEAM = 5UUZHRGMDL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "need it ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
